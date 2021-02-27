@@ -1,0 +1,28 @@
+header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header,a
+{
+    color: black; 
+    padding: 30px;
+    text-decoration: none;
+}
+
+a:focus
+{
+    color: #0065FC; 
+    border-top: 1px solid #0065FC;
+}
+
+.inscription
+{
+    color: #0065FC; 
+    font-weight: 700;
+}
+
+
