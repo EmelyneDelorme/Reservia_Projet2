@@ -1,28 +1,24 @@
-header
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+header {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30px;
 }
 
-header,a
-{
-    color: black; 
-    padding: 30px;
-    text-decoration: none;
+header a {
+  color: black;
+  padding: 20px;
+  text-decoration: none;
 }
 
-a:focus
-{
-    color: #0065FC; 
-    border-top: 1px solid #0065FC;
+a:focus {
+  color: #0065fc;
+  border-top: 1px solid #0065fc;
 }
 
-.inscription
-{
-    color: #0065FC; 
-    font-weight: 700;
+.inscription {
+  color: #0065fc;
+  font-weight: 700;
 }
-
-

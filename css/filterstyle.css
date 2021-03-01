@@ -1,0 +1,42 @@
+.filtres .fas {
+  color: #0065fc;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px / 20px;
+  background-color: #deebff;
+  width: 35px;
+  height: 35px;
+}
+
+.filtres p {
+  margin: 15px;
+  border-radius: 20px / 20px;
+  padding-left: 15px;
+  padding-right: 20px;
+}
+
+.filtres:hover {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.filtres {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  border: 2.5px #f2f2f2 solid;
+  border-radius: 20px / 20px;
+  border-left: 0;
+}
+
+.filters-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}

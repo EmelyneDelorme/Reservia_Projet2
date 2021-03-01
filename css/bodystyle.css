@@ -1,25 +1,22 @@
-body
-{
-    font-weight: 400;
-    font-family: 'Raleway', sans-serif;
-    font-size: small;
-    line-height: 25px;
-    margin: 0;
+body {
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-size: small;
+  line-height: 25px;
+  margin: 0;
 }
 
-h1
-{
-    margin: 30px;
-    font-weight: 700;
+h1 {
+  margin-left: 30px;
+  font-weight: 700;
 }
 
-h2
-{
-    font-weight: 700;
-    font-size: medium;
+h2 {
+  font-weight: 700;
+  font-size: medium;
+  margin-left: 30px;
 }
 
-p
-{
-    margin-left: 30px;
+p {
+  margin-left: 30px;
 }
