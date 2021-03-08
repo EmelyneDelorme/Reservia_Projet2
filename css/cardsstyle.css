@@ -19,21 +19,26 @@
   height: 20px;
 }
 
+.cards-hébergement h2 {
+  height: 10px;
+}
+
 .cards {
-  margin: 20px;
   background-color: white;
   border: 5px white solid;
   border-radius: 20px;
-  width: 250px;
-  height: 220px;
+  width: 30%;
+  height: 35%;
   line-height: 0px;
-  box-shadow: 0px 3px 5px rgb(216, 213, 213);
+  box-shadow: 3px 3px 5px rgb(216, 213, 213);
+  overflow: hidden;
 }
 
 .cards img {
   border-radius: 20px 20px 0px 0px;
   width: 100%;
-  height: 130px;
+  height: 60%;
+  object-fit: cover;
 }
 
 .cards p {
@@ -47,24 +52,29 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-items: center;
   background-color: #f2f2f2;
   width: 66%;
+  height: 600px;
   border-radius: 20px;
   padding-top: 15px;
   padding-left: 5px;
   padding-right: 5px;
+  overflow: hidden;
 }
 
 .cards-populaire {
   border-radius: 20px;
   background-color: #f2f2f2;
   width: 30%;
+  height: 600px;
   padding-top: 15px;
   padding-left: 5px;
   padding-right: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .cards-populaire h2 {
@@ -76,13 +86,14 @@
 .cards1 {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: space-around;
   margin: 20px;
   background-color: white;
   border: 5px white solid;
   border-radius: 20px;
-  width: 350px;
-  height: 140px;
+  height: 30%;
+  width: 90%;
   line-height: 5px;
   box-shadow: 0px 3px 5px rgb(216, 213, 213);
 }
@@ -93,8 +104,9 @@
 
 .cards1 img {
   border-radius: 20px 0px 0px 20px;
-  width: 140px;
+  width: 40%;
   height: 100%;
+  object-fit: cover;
 }
 
 .cards1 h4 {
@@ -143,6 +155,78 @@
   font-weight: 700;
   align-self: flex-start;
   width: 100%;
+  height: 10px;
   font-size: large;
-  margin-bottom: 30px;
+}
+
+.container-cards-activité {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 500px;
+  width: 100%;
+}
+
+.cards-activité {
+  margin: 10px;
+  border: 5px white solid;
+  border-radius: 20px;
+  width: 20%;
+  height: 35%;
+  line-height: 0px;
+  box-shadow: 0px 3px 5px rgb(216, 213, 213);
+  overflow: hidden;
+}
+
+.cards-activité-tall {
+  margin: 10px;
+  background-color: white;
+  border: 5px white solid;
+  border-radius: 20px;
+  width: 20%;
+  height: 100%;
+  line-height: 0px;
+  box-shadow: 0px 3px 5px rgb(216, 213, 213);
+  overflow: hidden;
+}
+
+.cards-activité-mid {
+  margin: 10px;
+  margin-top: 10px;
+  background-color: white;
+  border: 5px white solid;
+  border-radius: 20px;
+  width: 20%;
+  height: 50%;
+  line-height: 0px;
+  box-shadow: 0px 3px 5px rgb(216, 213, 213);
+  overflow: hidden;
+}
+
+.cards-activité-tall img {
+  border-radius: 20px 20px 0px 0px;
+  height: 85%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cards-activité-mid img {
+  border-radius: 20px 20px 0px 0px;
+  height: 75%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.cards-activité img {
+  border-radius: 20px 20px 0px 0px;
+  height: 60%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.container-cards-activité h4 {
+  width: 100%;
+  height: fit-content;
+  line-height: 20px;
 }
