@@ -31,15 +31,18 @@
   <body>
     <header>
       <img class="logo" src="images/logo/Reservia.svg" title="logo" />
+      <a class="inscriptionmobile" href="images/en-cours-de-construction.jpeg"
+        >S'inscrire</a
+      >
       <nav>
-        <a href="#Hébergements">Hébergements</a>
-        <a href="#Activités">Activités</a>
+        <a class="ancre" href="#Hébergements">Hébergements</a>
+        <a class="ancre" href="#Activités">Activités</a>
         <a class="inscription" href="images/en-cours-de-construction.jpeg"
           >S'inscrire</a
         >
       </nav>
     </header>
-    <section>
+    <section class="intro">
       <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
       <p>En plein centre ville ou en pleine nature</p>
       <div class="searchbox">
@@ -56,7 +59,10 @@
           maxlength="30"
         />
         <!--Button SearchBox-->
-        <input class="button" type="button" value="Rechercher" />
+        <button class="bouton">
+          <i class="fas fa-search"></i>
+          <p>Rechercher</p>
+        </button>
       </div>
       <!--Div Filters-->
       <div class="filters-container">
@@ -184,6 +190,12 @@
         <a href="images/en-cours-de-construction.jpeg" class="cards1">
           <img
             src="images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+            class="image1"
+            title="Le Soleil du Matin"
+          />
+          <img
+            src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+            class="image2"
             title="Le Soleil du Matin"
           />
           <div class="nom-note">
@@ -203,6 +215,12 @@
         <a href="images/en-cours-de-construction.jpeg" class="cards1">
           <img
             src="images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg"
+            class="image1"
+            title="Au coeur de l'eau"
+          />
+          <img
+            src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+            class="image2"
             title="Au coeur de l'eau"
           />
           <div class="nom-note">
@@ -222,6 +240,12 @@
         <a href="images/en-cours-de-construction.jpeg" class="cards1">
           <img
             src="images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+            class="image1"
+            title="Tout bleu et Blanc"
+          />
+          <img
+            src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+            class="image2"
             title="Tout bleu et Blanc"
           />
           <div class="nom-note">
@@ -248,6 +272,12 @@
         >
           <img
             src="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+            class="image1"
+            title="Vieux Port"
+          />
+          <img
+            src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+            class="image2"
             title="Vieux Port"
           />
           <h4>Vieux Port</h4>
@@ -258,6 +288,12 @@
         >
           <img
             src="images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+            class="image1"
+            title="Pomègues"
+          />
+          <img
+            src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+            class="image2"
             title="Pomègues"
           />
           <h4>Fort de Pomègues</h4>
@@ -265,6 +301,12 @@
         <a href="images/en-cours-de-construction.jpeg" class="cards-activité">
           <img
             src="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+            class="image1"
+            title="Frioul"
+          />
+          <img
+            src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+            class="image2"
             title="Frioul"
           />
           <h4>Îles du Frioul</h4>
@@ -275,6 +317,12 @@
         >
           <img
             src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+            class="image1"
+            title="Calanques"
+          />
+          <img
+            src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+            class="image2"
             title="Calanques"
           />
           <h4>Parc National des Calanques</h4>
@@ -282,6 +330,12 @@
         <a href="images/en-cours-de-construction.jpeg" class="cards-activité">
           <img
             src="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+            class="image1"
+            title="Notre-Dame-De-La-Garde"
+          />
+          <img
+            src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+            class="image2"
             title="Notre-Dame-De-La-Garde"
           />
           <h4>Notre-Dame-De-La-Garde</h4>
@@ -292,9 +346,15 @@
         >
           <img
             src="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
-            title="Longchamps"
+            class="image1"
+            title="Longchamp"
           />
-          <h4>Parc Longchamps</h4>
+          <img
+            src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+            class="image2"
+            title="Longchamp"
+          />
+          <h4>Parc Longchamp</h4>
         </a>
       </section>
     </div>

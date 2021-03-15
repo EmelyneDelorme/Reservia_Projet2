@@ -1,16 +1,146 @@
 @media screen and (min-width: 0px) and (max-width: 450px) {
+  header {
+    flex-direction: row;
+    flex-wrap: wrap;
+    line-height: 40px;
+    height: 100px;
+  }
+
+  header a {
+    width: 50%;
+    margin: 0 !important;
+    padding: 0px !important;
+    text-align: center;
+    height: 30px;
+    border-bottom: 2px #f2f2f2 solid;
+  }
+
+  header a:focus,
+  header a:active {
+    border-bottom: 2px #0065fc solid !important;
+    color: #0065fc !important;
+  }
+
   nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 0 !important;
+    width: 100%;
   }
 
-  header {
+  .inscriptionmobile {
+    display: block !important;
+    color: #0065fc !important;
+    font-weight: 700 !important;
+    border: none !important;
+    text-align: end;
+    margin-right: 15px !important;
+  }
+
+  .logo {
+    margin: 10px !important;
+  }
+
+  h1 {
+    width: 70%;
+    margin-left: 30px !important;
+  }
+
+  h1 + p {
+    margin-left: 30px !important;
+  }
+
+  .searchbox {
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+    margin-left: 30px !important;
+    width: 80% !important;
+  }
+
+  .inputfield {
+    width: 80%;
+    border-right: none !important;
+  }
+
+  .bouton .fas {
+    display: block !important;
+  }
+
+  .bouton {
+    padding: 0px !important;
+    margin-left: -10px;
+  }
+
+  .bouton p {
+    display: none !important;
+  }
+  .info .fas {
+    width: 25px !important;
+    margin-top: 7px !important;
+    margin-right: 5px !important;
+    font-size: 0.7em;
+    align-self: flex-start;
+  }
+
+  .filters-container p {
+    font-size: medium;
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+  }
+
+  .filtres p {
+    font-size: small;
+  }
+
+  .filters-container {
+    width: 85% !important;
+    height: 170px !important;
+    flex-wrap: wrap !important;
     flex-direction: row;
-    flex-wrap: wrap;
+    margin: auto !important;
+    justify-content: flex-start !important;
+  }
+
+  .filters-container p {
+    width: 100%;
+  }
+
+  .filtres {
+    margin-right: 20px;
+  }
+
+  .info {
+    width: 90% !important;
+    line-height: 15px !important;
+  }
+
+  h2 {
+    font-size: large !important;
+    margin-left: 20px !important;
+    margin-top: 0px !important;
+    align-self: flex-end !important;
+  }
+
+  .bouton {
+    border-radius: 10px 10px 10px 10px !important;
+  }
+
+  .afficher {
+    padding-left: 0 !important;
+    padding-top: 10px !important;
+    margin-top: 0 !important;
+    font-size: medium !important;
+    margin-left: 20px !important;
+  }
+
+  .cardsstyle {
+    margin: 0 !important;
   }
 
   .cards-hébergement {
+    padding: 0 !important;
+    margin: 0 !important;
     width: 100% !important;
     height: 1200px !important;
     background-color: white !important;
@@ -18,17 +148,17 @@
 
   .cards {
     width: 90% !important;
-    height: 14% !important;
-    border: none !important;
+    height: 13% !important;
+    margin: 0 !important;
   }
 
   .cards img {
-    height: 55% !important;
+    height: 60% !important;
   }
 
   .cards-populaire {
     width: 100% !important;
-    height: 500px !important;
+    height: 450px !important;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 20px !important;
@@ -38,33 +168,76 @@
 
   .cards-populaire h2 {
     margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    width: 95% !important;
   }
 
   .cards1 {
-    height: 30% !important;
+    height: 40% !important;
     margin: 10px !important;
-    width: 90% !important;
+    width: 95% !important;
   }
 
-  .container-cards-activité {
-    height: 1000px !important;
+  .cards1 h4,
+  .cards h4 {
+    font-size: small !important;
+    width: 90% !important;
+    margin: 0 !important;
+    margin-left: 10px !important;
+    line-height: 15px !important;
+    margin-top: 5px !important;
+  }
+
+  .cards1 p,
+  .cards p {
+    height: 10px !important;
+    font-size: smaller;
+  }
+
+  .texte {
+    width: 150px !important;
+    line-height: 25px !important;
   }
 
   .cards-activité,
   .cards-activité-tall,
   .cards-activité-mid {
-    width: 100% !important;
-    height: 16% !important;
+    width: 95% !important;
+    height: 15% !important;
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
   }
 
   .cards-activité img,
-  .cards-activité-tall img,
-  .cards-activité-mid img {
-    height: 75% !important;
+  .cards-activité-tall img {
+    height: 70% !important;
+    object-position: 50% 30% !important;
   }
 
+  .cards-activité-mid img {
+    height: 70% !important;
+    object-position: 50% 50% !important;
+  }
+
+  .container-cards-activité {
+    height: 1000px !important;
+    flex-wrap: nowrap !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+  }
   .container-cards-activité h4 {
-    margin-top: 10px !important;
+    margin: 0 !important;
+    margin-left: 15px !important;
+    margin-top: 15px !important;
+  }
+
+  .image1,
+  .inscription {
+    display: none !important;
+  }
+
+  .image2 {
+    display: block !important;
   }
 
   footer {
