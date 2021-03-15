@@ -1,0 +1,105 @@
+@media screen and (min-width: 451px) and (max-width: 1200px) {
+  header {
+    flex-direction: row;
+    flex-wrap: wrap;
+    line-height: 40px;
+    height: 100px;
+  }
+
+  header a {
+    width: 50%;
+    margin: 0 !important;
+    padding: 0px !important;
+    text-align: center;
+    height: 30px;
+    border-bottom: 2px #f2f2f2 solid;
+  }
+
+  header a:focus,
+  header a:active {
+    border-bottom: 2px #0065fc solid !important;
+    color: #0065fc !important;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 !important;
+    width: 100%;
+  }
+
+  .inscriptionmobile {
+    display: block !important;
+    color: #0065fc !important;
+    font-weight: 700 !important;
+    border: none !important;
+    text-align: end;
+    margin-right: 15px !important;
+  }
+
+  .logo {
+    margin: 10px !important;
+  }
+
+  .inscription {
+    display: none !important;
+  }
+
+  .filters-container {
+    width: 85% !important;
+  }
+
+  .cards-hébergement {
+    height: 680px !important;
+  }
+
+  .cards {
+    width: 40% !important;
+    height: 25% !important;
+  }
+
+  .cards img {
+    height: 55% !important;
+  }
+
+  .afficher {
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+
+  .cards-populaire {
+    width: 28% !important;
+    height: 680px !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .cards1 {
+    width: 95% !important;
+  }
+
+  .container-cards-activité {
+    height: 1000px !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .cards-activité-tall,
+  .cards-activité-mid,
+  .cards-activité {
+    width: 45% !important;
+    height: 30% !important;
+  }
+
+  .cards-activité img,
+  .cards-activité-tall img,
+  .cards-activité-mid img {
+    height: 80% !important;
+  }
+
+  .container-cards-activité h4 {
+    margin-left: 5px !important;
+  }
+}
