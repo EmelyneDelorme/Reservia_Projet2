@@ -169,7 +169,9 @@
   .cards-populaire h2 {
     margin-top: 5px !important;
     margin-bottom: 5px !important;
-    width: 95% !important;
+    width: 90% !important;
+    margin-left: 0 !important;
+    align-self: center !important;
   }
 
   .cards1 {

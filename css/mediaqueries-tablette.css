@@ -50,13 +50,20 @@
     width: 85% !important;
   }
 
+  .cardsstyle {
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-bottom: 0 !important;
+  }
+
   .cards-hébergement {
-    height: 680px !important;
+    height: 550px !important;
+    width: 95% !important;
   }
 
   .cards {
-    width: 40% !important;
-    height: 25% !important;
+    width: 30% !important;
+    height: 40% !important;
   }
 
   .cards img {
@@ -69,21 +76,37 @@
   }
 
   .cards-populaire {
-    width: 28% !important;
-    height: 680px !important;
-    justify-content: center !important;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    width: 95% !important;
+    height: 280px !important;
+    justify-content: space-between !important;
     align-items: center !important;
+    margin-top: 20px !important;
+  }
+
+  .cards-populaire h2 {
+    width: 90% !important;
+    margin-left: 20px !important;
   }
 
   .cards1 {
-    width: 95% !important;
+    flex-direction: column !important;
+    height: 75% !important;
+    width: 30% !important;
+    margin: 0 !important;
+  }
+
+  .cards1 img {
+    width: 100% !important;
+    height: 50% !important;
   }
 
   .container-cards-activité {
-    height: 1000px !important;
+    height: 500px !important;
     flex-wrap: wrap !important;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: flex-start !important;
   }
 
   .cards-activité-tall,
@@ -91,15 +114,27 @@
   .cards-activité {
     width: 45% !important;
     height: 30% !important;
+    margin-bottom: 15px !important;
   }
 
   .cards-activité img,
   .cards-activité-tall img,
   .cards-activité-mid img {
     height: 80% !important;
+    object-position: 50% 50% !important;
   }
 
   .container-cards-activité h4 {
-    margin-left: 5px !important;
+    margin-left: 20px !important;
+    margin-top: 5px !important;
+  }
+
+  .footer-items {
+    width: 30% !important;
+    margin-right: 50px !important;
+  }
+
+  .footer-items p {
+    width: 100% !important;
   }
 }
